@@ -15,8 +15,8 @@ public class Exo1 {
                 if (s.charAt(i) != s.charAt(j)) {
                     return false;
                 }
-
-                ++j;
+                i++;
+                j--;
             }
 
             return true;
