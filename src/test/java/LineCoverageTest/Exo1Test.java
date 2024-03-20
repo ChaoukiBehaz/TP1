@@ -18,12 +18,12 @@ class Exo1Test {
     }
 
     @Test
-    void PalindromeTestwithPalindromeString() {
+    void PalindromeTestWithPalindromeString() {
         Assertions.assertTrue(Exo1.isPalindrome("radar"));
     }
 
     @Test
-    void PalindromeTestwithNoPalindromeString() {
+    void PalindromeTestWithNoPalindromeString() {
         Assertions.assertFalse(Exo1.isPalindrome("rada"));
     }
 }
